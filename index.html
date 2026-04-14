@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AriTI | Ariana Grande 人格测试</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部语言切换栏 -->
+    <div class="language-top-bar">
+        <div class="language-switcher">
+            <button id="lang-zh" class="lang-btn active" data-lang="zh">中文</button>
+            <button id="lang-en" class="lang-btn" data-lang="en">English</button>
+        </div>
+    </div>
+
+    <div id="app">
+        <!-- 欢迎屏幕 -->
+        <div id="screen-welcome" class="screen active">
+            <div class="welcome-container">
+                <div class="logo-container">
+                    <div class="logo-icon">｡°❀*·ꕤ.ﾟ*ꕤ</div>
+                    <h1 data-i18n="welcome_title">AriTI</h1>
+                </div>
+                <p class="subtitle" data-i18n="welcome_subtitle">Ariana Grande Type Indicator</p>
+                <p class="welcome-text" data-i18n="welcome_desc">通过22道精心设计的题目，探索你内心深处的Ariana Grande人格特质。发现你的专属era，获得个性歌单推荐！</p>
+                
+                <!-- 免责声明框 -->
+                <div class="disclaimer-box">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p data-i18n="disclaimer">本网站由粉丝制作，非官方，请勿用作其他用途</p>
+                </div>
+                
+                <button class="btn-primary" id="start-btn" data-i18n="start_test">
+                    <i class="fas fa-play-circle"></i> 开始测试
+                </button>
+                <p class="hint-text" data-i18n="test_duration">测试时长约4-6分钟</p>
+            </div>
+        </div>
+
+        <!-- 测试问题屏幕 -->
+        <div id="screen-quiz" class="screen">
+            <div class="quiz-header">
+                <div class="quiz-title">
+                    <h2 data-i18n="quiz_title">AriTI 测试</h2>
+                    <p class="quiz-subtitle" data-i18n="quiz_version">经典版 · 22题</p>
+                </div>
+                <div class="quiz-meta">
+                    <span id="current-question-num">0</span>/<span id="total-questions">22</span>
+                </div>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-text">
+                    <span data-i18n="progress">进度</span>
+                    <span id="progress-percent">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="question-number" id="question-counter" data-i18n="question">问题 1</div>
+                <div class="question-text" id="question-text">问题加载中...</div>
+                
+                <div class="question-hint" id="question-hint"></div>
+                
+                <div class="options-container" id="options-container">
+                    <!-- 选项将通过JS动态生成 -->
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="btn-secondary" id="prev-btn" disabled data-i18n="previous">
+                    <i class="fas fa-arrow-left"></i> 上一题
+                </button>
+                <button class="btn-primary" id="next-btn" disabled data-i18n="next">
+                    下一题 <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- 加载屏幕 -->
+        <div id="screen-loading" class="screen">
+            <div class="loading-container">
+                <div class="loading-spinner">
+                    <!-- 这里会显示背景图片 -->
+                </div>
+                <h2 data-i18n="loading">分析您的人格...</h2>
+                <p class="subtitle" data-i18n="loading_subtitle">正在匹配您与Ariana的歌曲世界</p>
+                <div class="loading-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 结果屏幕 -->
+        <div id="screen-result" class="screen">
+            <div class="result-header">
+                <h2 data-i18n="your_result">你的娜属性是</h2>
+                <p class="result-subtitle" data-i18n="based_on_choices">基于你22次的细心选择</p>
+            </div>
+
+            <!-- 主要人格结果卡片 -->
+            <div class="result-card main-result">
+                <div class="era-badge" id="result-badge">Yours Truly</div>
+                <div class="era-title" id="result-era">加载中</div>
+                <p class="era-desc" id="result-desc">加载中</p>
+                <div class="era-color-bar" id="result-color-bar"></div>
+            </div>
+
+            <!-- 雷达图卡片 -->
+            <div class="result-card">
+                <div class="section-title radar-title">
+                    <div class="chart-icon"></div>
+                    <div class="radar-title-text">
+                        <i class="fas fa-chart-radar"></i> 
+                        <span data-i18n="radar_chart">人格维度雷达图</span>
+                    </div>
+                </div>
+                <div class="radar-container">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 深度人格解读卡片 -->
+            <div class="result-card">
+                <div class="section-title interpretation">
+                    <div class="interpretation-icon"></div>
+                    <i class="fas fa-file-alt"></i> <span data-i18n="interpretation">深度人格解读</span>
+                </div>
+                <div class="interpretation-text" id="result-interpretation">加载中</div>
+            </div>
+
+            <!-- 推荐歌单卡片 -->
+            <div class="result-card">
+                <div class="section-title playlist">
+                    <div class="playlist-icon"></div>
+                    <i class="fas fa-music"></i> <span data-i18n="recommended_playlist">推荐歌单</span>
+                </div>
+                <div class="playlist" id="result-playlist">
+                    <!-- 歌单将通过JS动态生成 -->
+                </div>
+            </div>
+
+            <!-- 底部链接 -->
+            <div class="result-footer">
+                <a href="https://www.arianagrande.com/" class="result-footer-link" target="_blank" rel="noopener">
+                    <span>arianagrande.com</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- 结果操作按钮 -->
+            <div class="result-actions">
+                <button class="btn-share" id="share-btn" data-i18n="share_result">
+                    <i class="fas fa-share-alt"></i> 分享结果
+                </button>
+                <button class="btn-primary" id="retry-btn" data-i18n="retry_test">
+                    <i class="fas fa-redo"></i> 再测一次
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 水印 -->
+    <div id="watermark" class="watermark">by LexieAriana</div>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1931 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "emotional",
+      "text": {
+        "zh": "当经历情感挫折时，你更倾向于哪种处理方式？",
+        "en": "When facing emotional setbacks, which approach resonates with you most?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "像《Honeymoon Avenue》描述的那样，怀念过去的美好时光，希望回到最初",
+            "en": "Like in 'Honeymoon Avenue', missing the good old days and wanting to go back to the beginning"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "像《One Last Time》中唱的，即便知道要结束，仍不舍挽留，害怕距离",
+            "en": "Like in 'One Last Time', knowing it's ending but still reluctant to let go, fearing distance"
+          },
+          "target_era": "my_everything",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "如《Into You》表达，勇敢冒险，即使关系有些危险也愿意尝试",
+            "en": "As expressed in 'Into You', bravely taking risks, willing to try even if the relationship is a bit dangerous"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "用《Sweetener》的态度，把苦涩变成甜蜜，在伤痛中找到治愈",
+            "en": "With the attitude of 'Sweetener', turning bitterness into sweetness, finding healing in pain"
+          },
+          "target_era": "sweetener",
+          "weight": 1.5,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "像《thank u, next》那样，感恩每段经历，然后洒脱向前看",
+            "en": "Like 'thank u, next', grateful for every experience, then moving forward freely"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.6,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "如《pov》所唱，先学会爱自己，才有能力好好爱别人",
+            "en": "As sung in 'pov', first learn to love yourself, then you can love others properly"
+          },
+          "target_era": "positions",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "像《eternal sunshine》中，清醒告别，不再沉溺于过去的背叛与伤痛",
+            "en": "Like in 'eternal sunshine', saying goodbye clearly, no longer indulging in past betrayals and pains"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.5,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "emotional",
+      "text": {
+        "zh": "当你感到焦虑或压力过大时，你通常会？",
+        "en": "When you feel anxious or overwhelmed, you usually?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "保持天真幻想，相信一切会变好",
+            "en": "Maintaining naive fantasies, believing everything will get better"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "尝试不同方式转移注意力，朝不同方向多元化探索",
+            "en": "Try different ways to distract yourself,  diversified exploration in different eras"
+          },
+          "target_era": "my_everything",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "展现强大的一面，不让情绪控制自己",
+            "en": "Show a strong side, tell yourself 'I'm bulletproof', don't let emotions control you"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "深呼吸，坚持住，知道一切都会过去",
+            "en": "Take deep breaths, hold on, knowing everything will pass"
+          },
+          "target_era": "sweetener",
+          "weight": 1.5,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "告诉自己我已做到最好，用自爱和感恩化解焦虑",
+            "en": "Tell yourself 'I'm so amazing', use self-love and gratitude to dissolve anxiety"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "转向亲密关系寻求安全感，而非独自一人承受",
+            "en": "Turn to intimate relationships for security"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "提出质疑，分析焦虑来源，拒绝被外界定义，坚守自我",
+            "en": "Clearly analyze the source of anxiety, refuse to be defined, stick to yourself"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "social",
+      "text": {
+        "zh": "在朋友眼中，你的社交风格最接近Ariana哪个时期？",
+        "en": "In the eyes of friends, your social style is closest to which era of Ariana?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "《Yours Truly》时期：青涩纯真，对朋友毫无保留的信任",
+            "en": "'Yours Truly' era: Innocent and pure, trusting friends unreservedly"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《My Everything》时期：探索不同社交圈，寻找真正的自己",
+            "en": "'My Everything' era: Exploring different social circles, looking for the real self"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《Dangerous Woman》时期：自信主动，掌控社交场合",
+            "en": "'Dangerous Woman' era: Confident and proactive, controlling social situations"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《Sweetener》时期：用积极态度感染他人，是朋友的情绪甜味剂",
+            "en": "'Sweetener' era: Infecting others with a positive attitude, being the emotional sweetener for friends"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《thank u, next》时期：感恩遇见，但也清楚知道何时该说再见",
+            "en": "'thank u, next' era: Grateful for meetings, but also clearly know when to say goodbye"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《Positions》时期：在关系中寻找平衡，重视深度连接而非广泛社交",
+            "en": "'Positions' era: Seeking balance in relationships, valuing deep connections over extensive socializing"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "《eternal sunshine》时期：清醒独立，社交有度，坚守个人边界",
+            "en": "'eternal sunshine' era: Clear and independent, socializing in moderation, sticking to personal boundaries"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待Ariana在《Dangerous Woman》中定义的'危险女人'？",
+        "en": "How do you view the 'dangerous woman' redefined by Ariana in 'Dangerous Woman'?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "更认同早期纯真形象，女性应该保持温柔浪漫",
+            "en": "Identify more with the early innocent image, women should remain gentle and romantic"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "认同女性需要探索自我，尝试不同可能性",
+            "en": "Agree that women need to explore themselves and try different possibilities"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "完全认同！女性应该勇敢、坚定、不被定义，自我主宰",
+            "en": "Completely agree! Women should be brave, determined, undefined, and self-determined"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.6,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "更认同《God is a woman》中的观点：女性拥有神性力量",
+            "en": "Agree more with the view in 'God is a woman': women have divine power"
+          },
+          "target_era": "sweetener",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "女性应该先学会自爱，才能好好去爱别人",
+            "en": "Women should first learn to love themselves before they can love others well"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.4,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在亲密关系中保持自我特质，才是女性成熟的表现",
+            "en": "Maintaining oneself in intimate relationships is a sign of female maturity"
+          },
+          "target_era": "positions",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "把他人的指点放在一边，拒绝被定义左右，坚守个人边界",
+            "en": "Women should refuse to be defined, stick to personal boundaries"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.5,
+          "dimension": "value_system"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "values",
+      "text": {
+        "zh": "经历人生低谷时，你更认同Ariana哪种疗愈哲学？",
+        "en": "When experiencing a low point in life, which of Ariana's healing philosophies do you identify with more?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "保持天真幻想，相信真爱和美好会治愈一切",
+            "en": "Maintain naive fantasies, believing that true love and beauty will heal everything"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "尝试不同方式转移注意力，在探索中寻找出口",
+            "en": "Try different ways to distract yourself, looking for an outlet in exploration"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "展现强大一面，告诉自己要坚强，不被挫折打倒",
+            "en": "Show a strong side, tell yourself to be strong, not to be defeated by setbacks"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "用爱和希望化解生活的苦涩",
+            "en": "Use love and hope to dissolve the bitterness of life"
+          },
+          "target_era": "sweetener",
+          "weight": 1.6,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "感恩经历，把伤痛变成成长的养分",
+            "en": "Be grateful for the experience, turning pain into nutrients for growth"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.7,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "寻求稳定关系和安全感来疗愈创伤",
+            "en": "Seek stable relationships and security to heal trauma"
+          },
+          "target_era": "positions",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "清醒自愈，与过去和解，不再沉溺于伤痛",
+            "en": "Heal clearly, reconcile with the past, no longer indulge in pain"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.5,
+          "dimension": "value_system"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "lyrics",
+      "text": {
+        "zh": "以下哪句Ariana的歌词最能触动你的内心？",
+        "en": "Which of the following Ariana lyrics touches your heart the most?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "I feel like my heart is stuck in bumper-to-bumper traffic (Honeymoon Avenue)",
+            "en": "I feel like my heart is stuck in bumper-to-bumper traffic (Honeymoon Avenue)"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "I know you're not far, but I still can't handle all the distance (One Last Time)",
+            "en": "I know you're not far, but I still can't handle all the distance (One Last Time)"
+          },
+          "target_era": "my_everything",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "Don't need permission, made my decision to test my limits (Dangerous Woman)",
+            "en": "Don't need permission, made my decision to test my limits (Dangerous Woman)"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "When life deals us cards, make everything taste like it is salt, then you come through like the sweetener you are (Sweetener)",
+            "en": "When life deals us cards, make everything taste like it is salt, then you come through like the sweetener you are (Sweetener)"
+          },
+          "target_era": "sweetener",
+          "weight": 1.6,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "One taught me love, one taught me patience, and one taught me pain (thank u, next)",
+            "en": "One taught me love, one taught me patience, and one taught me pain (thank u, next)"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.7,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "I wanna love you, but I can't, 'til I learn how to love myself (pov)",
+            "en": "I wanna love you, but I can't, 'til I learn how to love myself (pov)"
+          },
+          "target_era": "positions",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "I showed you all my demons, all my lies, yet you played me like Atari (eternal sunshine)",
+            "en": "I showed you all my demons, all my lies, yet you played me like Atari (eternal sunshine)"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "growth",
+      "text": {
+        "zh": "当面对外界不友善的评价时，你的反应最接近？",
+        "en": "When facing unfriendly evaluations from the outside world, which reaction is closest to yours?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "保持纯真，相信只要做好自己就会被人喜欢",
+            "en": "Stay innocent, believe that as long as you do your best, you will be liked"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "尝试理解不同观点，在探索中寻找自我定位",
+            "en": "Try to understand different perspectives, looking for self-positioning in exploration"
+          },
+          "target_era": "my_everything",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "展现自信，不被他人定义，坚持自我选择",
+            "en": "Show confidence, not defined by others, stick to your own choices"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "用积极心态化解恶意，相信爱和善意能改变一切",
+            "en": "Use a positive attitude to dissolve malice, believing that love and kindness can change everything"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "感恩所有评价，把它们当作成长的反馈",
+            "en": "Be grateful for all evaluations, treat them as feedback for growth"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.5,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "转向亲密的人寻求支持，不独自面对恶意",
+            "en": "Turn to close people for support, don't face malice alone"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "淡然回应，我的个人边界与他人无关",
+            "en": "Respond calmly, sticking to personal boundaries"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.6,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+{
+  "id": 8,
+  "category": "emotional",
+  "text": {
+    "zh": "在恋爱关系中，你更看重的是什么？（最多可选3项）",
+    "en": "In a romantic relationship, what do you value more? (Select up to 3)"
+  },
+  "type": "multiple",
+  "max_selections": 3,
+  "options": [
+    {
+      "text": {
+        "zh": "像《Tattooed Heart》唱的，向往一生一世的忠贞爱情",
+        "en": "Like in 'Tattooed Heart', yearning for lifelong loyal love"
+      },
+      "target_era": "yours_truly",
+      "weight": 1.2,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《Love Me Harder》探索的，尝试不同的情感体验",
+        "en": "Like exploring in 'Love Me Harder', trying different emotional experiences"
+      },
+      "target_era": "my_everything",
+      "weight": 1.1,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《Side to Side》表达的，性感自主的关系模式",
+        "en": "Like expressed in 'Side to Side', a sexually autonomous relationship pattern"
+      },
+      "target_era": "dangerous_woman",
+      "weight": 1.3,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《sweetener》传递的，用爱治愈彼此创伤",
+        "en": "Like conveyed in 'sweetener', healing each other's trauma with love"
+      },
+      "target_era": "sweetener",
+      "weight": 1.5,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《thank u, next》倡导的，在关系中学习成长",
+        "en": "Like advocated in 'thank u, next', learning and growing in relationships"
+      },
+      "target_era": "thank_u_next",
+      "weight": 1.4,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《positions》描述的，寻找稳定平衡的亲密关系",
+        "en": "Like described in 'positions', seeking stable and balanced intimate relationships"
+      },
+      "target_era": "positions",
+      "weight": 1.3,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "像《eternal sunshine》反思的，清醒认知关系的本质",
+        "en": "Like reflecting in 'eternal sunshine', clearly recognizing the nature of relationships"
+      },
+      "target_era": "eternal_sunshine",
+      "weight": 1.4,
+      "dimension": "emotional_style"
+    }
+  ]
+},
+    {
+      "id": 9,
+      "category": "social",
+      "text": {
+        "zh": "你如何处理与朋友的分歧？",
+        "en": "How do you handle disagreements with friends?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "主动和解才是正解，说啥都不如一句-我错了",
+            "en": "Believe in innocent friendship, actively reconcile to return to the beginning"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "尝试理解不同立场，设身处地寻找折中方案",
+            "en": "Try to understand different positions, look for compromise"
+          },
+          "target_era": "my_everything",
+          "weight": 1.0,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "坚持自我观点，不轻易妥协",
+            "en": "Stick to your own point of view, don't compromise easily"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "用积极态度化解矛盾，或许事情没想象中那么严重",
+            "en": "Use a positive attitude to resolve conflicts, look for common ground"
+          },
+          "target_era": "sweetener",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "感恩曾经的友谊，然后拜拜了您嘞",
+            "en": "Be grateful for the friendship, then move on"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "在分歧中寻求平衡，如何修复关系需要从长计议",
+            "en": "Seek balance in disagreements, maintain relationship stability"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "清醒评估关系价值，再决定是否继续维持友情",
+            "en": "Clearly assess the value of the relationship, decide whether to continue"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待自我表达与外界期待的关系？",
+        "en": "How do you view the relationship between self-expression and external expectations?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "保持纯真，相信真实的自己会被接受",
+            "en": "Stay innocent, believe that the real you will be accepted"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在尝试不同表达方式中寻找自我",
+            "en": "Find yourself in trying different ways of expression"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "坚持自我表达，不被他人的期待定义",
+            "en": "Insist on self-expression, not defined by others' expectations"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "用积极的方式表达自我，传播爱与希望",
+            "en": "Express yourself in a positive way, spread love and hope"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在自我表达中学习成长，感恩反馈",
+            "en": "Learn and grow in self-expression, be grateful for feedback"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在自我表达与外界期待间寻找平衡",
+            "en": "Find balance between self-expression and external expectations"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "清醒认知自我，不为迎合外界而改变",
+            "en": "Clearly know yourself, don't change to meet external expectations"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "value_system"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "emotional",
+      "text": {
+        "zh": "当你感到孤独时，你会如何应对？",
+        "en": "When you feel lonely, how do you cope?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "怀念过去的美好时光，向往有人陪伴",
+            "en": "Miss the good old days, yearn for someone's company"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "尝试不同活动转移注意力，探索新体验",
+            "en": "Try different activities to distract yourself, explore new experiences"
+          },
+          "target_era": "my_everything",
+          "weight": 1.0,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "相信自己足够强大，去享受独处时光",
+            "en": "Tell yourself you are strong enough, enjoy time alone"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "以积极心态面对，努力将孤独变成自我疗愈的机会",
+            "en": "Face with a positive attitude, turn loneliness into an opportunity for self-healing"
+          },
+          "target_era": "sweetener",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "感恩独处时光，在孤独中学习自立与自爱",
+            "en": "Be grateful for alone time, learn self-love in loneliness"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "寻求亲密的人陪伴，建立情感连接",
+            "en": "Seek company from close people, build emotional connections"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "清醒面对孤独，不论是好是坏，理解这是成长的必经阶段",
+            "en": "Face loneliness clearly, understand it is a necessary stage of growth"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "social",
+      "text": {
+        "zh": "在团队合作中，你通常扮演什么角色？",
+        "en": "In team cooperation, what role do you usually play?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "常受到指导的小白，绝对相信团队力量",
+            "en": "Innocent and positive collaborator, believing in team power"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "尝试不同角色的探索者，寻找最适合的位置",
+            "en": "Explorer trying different roles, looking for the most suitable position"
+          },
+          "target_era": "my_everything",
+          "weight": 1.0,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "自信的领导者，掌控团队方向",
+            "en": "Confident leader, controlling team direction"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "团队的气氛担当，不允许有任何人垂头丧气",
+            "en": "Motivate others with a positive attitude"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "谦虚的学习者，自己肯定能在队伍里有不少收获",
+            "en": "Grateful for team members, grow together in cooperation"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "寻找平衡的监督者，团队需要成员共同努力",
+            "en": "Balanced coordinator, maintaining team harmony"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "时刻保持独立判断，信谁都不如信自己",
+            "en": "Clear observer, maintaining independent judgment in the team"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待成功与失败的关系？",
+        "en": "How do you view the relationship between success and failure?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "相信努力就会有回报，期待未来也信任自己",
+            "en": "Believe that hard work pays off, maintain innocent expectations"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "默然接受，失败是探索的一部分",
+            "en": "Learn in trying, failure is part of exploration"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "失败才是强大的标志，愈挫愈勇",
+            "en": "Draw strength from failure, become stronger"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "用积极心态看待失败，从不将矛头指向自己",
+            "en": "View failure with a positive attitude, turn setbacks into nutrients for growth"
+          },
+          "target_era": "sweetener",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "失败让人心痛，但自己也只好一笑置之",
+            "en": "Be grateful for every failure, they taught me to grow"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.6,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在成功与失败间寻找平衡，不骄不馁才是真正的自在",
+            "en": "Find balance between success and failure, maintain a stable mindset"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "剖析失败的内在价值，尽力从中获得智慧",
+            "en": "Clearly recognize the value of failure, gain wisdom from it"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "value_system"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "emotional",
+      "text": {
+        "zh": "当你对某个决定感到犹豫时，你会？",
+        "en": "When you hesitate about a decision, you will?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "相信直觉，保持我的第一选择",
+            "en": "Believe in intuition, maintain innocent choice"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "尝试分析不同可能性，探索最佳选择",
+            "en": "Try to analyze different possibilities, explore the best choice"
+          },
+          "target_era": "my_everything",
+          "weight": 1.0,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "勇敢做出决定，任何后果我都能承担",
+            "en": "Believe in your own judgment, bravely make a decision"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "选择什么不重要，更重视自己的主观能动性",
+            "en": "Face with a positive attitude, believe that any choice will bring growth"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "感慨自己居然还有得选，不论选啥都知足了",
+            "en": "Be grateful for the possibility of each choice, learn experience from it"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "随心而动，听从脑海中意识的决定",
+            "en": "Find balance in hesitation, make the safest decision"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "明析是非利弊，要做出理性的决定",
+            "en": "Clearly analyze pros and cons, make a rational decision"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+{
+  "id": 15,
+  "category": "social",
+  "text": {
+    "zh": "你如何看待社交媒体上的自我呈现？（最多可选3项）",
+    "en": "How do you view self-presentation on social media? (Select up to 3)"
+  },
+  "type": "multiple",
+  "max_selections": 3,
+  "options": [
+    {
+      "text": {
+        "zh": "尽情展现自己，相信会受到欢迎",
+        "en": "Show the innocent and real you, believe you will be liked"
+      },
+      "target_era": "yours_truly",
+      "weight": 1.0,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "尝试不同的表达方式，探索最适合的风格",
+        "en": "Try different ways of expression, explore the most suitable style"
+      },
+      "target_era": "my_everything",
+      "weight": 1.1,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "自信展现真实自我，生活中啥样网上也啥样",
+        "en": "Confidently show your true self, not bound by others' expectations"
+      },
+      "target_era": "dangerous_woman",
+      "weight": 1.4,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "希望用积极内容传播爱与希望，但也只是希望而已",
+        "en": "Spread love and hope with positive content, be a network sweetener"
+      },
+      "target_era": "sweetener",
+      "weight": 1.5,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "审慎看待社交媒体，保护自我是第一位",
+        "en": "Be grateful for the connections provided by social media, but maintain your true self"
+      },
+      "target_era": "thank_u_next",
+      "weight": 1.3,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "我需要他人的评价与赏识，这是我展现自我的意义",
+        "en": "Find balance between self-presentation and others' evaluations"
+      },
+      "target_era": "positions",
+      "weight": 1.2,
+      "dimension": "social_pattern"
+    },
+    {
+      "text": {
+        "zh": "看清社交媒体的本质，更愿做旁观者，不需他人审视",
+        "en": "Clearly recognize the nature of social media, maintain independent thinking"
+      },
+      "target_era": "eternal_sunshine",
+      "weight": 1.4,
+      "dimension": "social_pattern"
+    }
+  ]
+},
+    {
+      "id": 16,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待个人梦想与现实约束的关系？",
+        "en": "How do you view the relationship between personal dreams and realistic constraints?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "理想与梦想不远，努努力是有机会实现的",
+            "en": "Maintain innocent dreams, believe that hard work can achieve them"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "必须去主动寻找可行的路径，梦想与现实有差距",
+            "en": "Explore between dreams and reality, look for feasible paths"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "勇敢去追逐梦想，现实的约束或许都是纸老虎",
+            "en": "Bravely pursue dreams, not limited by realistic constraints"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "现实难免不尽如人意，但不会放弃寻找梦想的可能",
+            "en": "Face reality with a positive attitude, look for possibilities to realize dreams within constraints"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "正是当下残酷的现实，让我的梦想更有意义",
+            "en": "Be grateful for realistic challenges, they make the realization of dreams more meaningful"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "梦想与现实互为明镜，过好当下才能找寻梦想",
+            "en": "Find balance between dreams and reality, make feasible plans"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "现实固然存在坎坷阻碍，自己要在限制中素履以往",
+            "en": "Clearly recognize realistic constraints, rationally pursue dreams within limitations"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "value_system"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "emotional",
+      "text": {
+        "zh": "当你需要做出重大改变时，你的态度是？",
+        "en": "When you need to make major changes, what is your attitude?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "些许怀念过去，会对改变感到不安",
+            "en": "Miss the past, feel uneasy about change"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.1,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "尝试理解改变的必要性，慢慢适应一切",
+            "en": "Try to understand the necessity of change, explore adaptation methods"
+          },
+          "target_era": "my_everything",
+          "weight": 1.0,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "努力拥抱改变，不让改变击垮自己",
+            "en": "Bravely welcome change, see it as an opportunity for growth"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "相信改变会塑造更完美的自己，欣然接受一切",
+            "en": "Face change with a positive attitude, believe it will bring new beauty"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "心态平和，什么大风大浪都见过了",
+            "en": "Be grateful for the growth brought by change, learn to adapt from it"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "变化才是人生主旋律，自己始终都会在进步",
+            "en": "Find stability in change, maintain a balanced mindset"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "emotional_style"
+        },
+        {
+          "text": {
+            "zh": "内心或许不太接受，但下定决心就不会后悔",
+            "en": "Clearly evaluate the necessity of change, make rational decisions"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.3,
+          "dimension": "emotional_style"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "social",
+      "text": {
+        "zh": "你如何看待与不同背景的人的交往？",
+        "en": "How do you view interacting with people from different backgrounds?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "相信人性本善，我看人很准的",
+            "en": "Stay open and innocent, believe that human nature is good"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "探索不同的人格特质，增长自己的见识",
+            "en": "Curiously explore different cultures, learn new perspectives from them"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "什么背景的人和我相处，我都一个样",
+            "en": "Confidently show yourself, don't change because of background differences"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "就算背景不同，也会尝试寻找与对方的共性，肯定有切入点",
+            "en": "Build connections with a positive attitude, look for common humanity"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "正是因为背景不同，交往才显得更具意义",
+            "en": "Be grateful for different encounters, gain growth from them"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "不论何种背景，和谐相处是我交往的前提",
+            "en": "Find balance between different backgrounds, establish harmonious relationships"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "融不进的圈子不硬融，还是继续寻找背景适配的人吧",
+            "en": "Clearly recognize differences, maintain respect and boundaries"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待传统观念与个人选择的关系？",
+        "en": "How do you view the relationship between traditional concepts and personal choices?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "尊重传统，相信传统智慧的价值",
+            "en": "Respect tradition, believe in the value of traditional wisdom"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "当局者迷，或许别人能为我提供意见",
+            "en": "Explore between tradition and individuality, look for a balance point"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "坚持个人选择，传统观念的害处可不少",
+            "en": "Stick to personal choices, don't blindly follow traditional concepts"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.5,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在传承中创新，两者我都要",
+            "en": "View tradition with a positive attitude, innovate in inheritance"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "陷入两难，但最后还是决定跟随个人的选择",
+            "en": "Be grateful for traditional wisdom, while cherishing personal growth"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "在传统与个人之外探索，两者可能都不利于自己",
+            "en": "Find harmony between tradition and individuality, make wise choices"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "优先考虑自己想要什么，再在传统与个人间做出选择",
+            "en": "Clearly evaluate traditional value, make rational personal choices"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "value_system"
+        }
+      ]
+    },
+{
+  "id": 20,
+  "category": "emotional",
+  "text": {
+    "zh": "当你面对自己的不完美时，你的态度是？（最多可选3项）",
+    "en": "When you face your own imperfections, what is your attitude? (Select up to 3)"
+  },
+  "type": "multiple",
+  "max_selections": 3,
+  "options": [
+    {
+      "text": {
+        "zh": "希望自己可以保持完美，对不完美感到不安",
+        "en": "Hope to maintain innocent perfection, feel uneasy about imperfections"
+      },
+      "target_era": "yours_truly",
+      "weight": 1.1,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "试图找到不完美的原因，或许会有改进方法",
+        "en": "Try to understand the reasons for imperfections, explore improvement methods"
+      },
+      "target_era": "my_everything",
+      "weight": 1.0,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "不完美很常见，没必要为此大惊小怪",
+        "en": "Accept imperfections, see them as part of unique personality"
+      },
+      "target_era": "dangerous_woman",
+      "weight": 1.3,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "不完美远比其他特质重要，我因此而鲜活",
+        "en": "View imperfections with a positive attitude, see them as opportunities for growth"
+      },
+      "target_era": "sweetener",
+      "weight": 1.4,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "悦纳自己的不完美，但也想让自己向完美靠近",
+        "en": "Be grateful for imperfections, they make me grow more authentically"
+      },
+      "target_era": "thank_u_next",
+      "weight": 1.3,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "欣赏自我的瑕疵，别让其他人发现就好",
+        "en": "Find balance in imperfections, accept the real you"
+      },
+      "target_era": "positions",
+      "weight": 1.2,
+      "dimension": "emotional_style"
+    },
+    {
+      "text": {
+        "zh": "我愿意为某个人，改变自己的不完美",
+        "en": "Imperfect for you"
+      },
+      "target_era": "eternal_sunshine",
+      "weight": 1.3,
+      "dimension": "emotional_style"
+    }
+  ]
+},
+    {
+      "id": 21,
+      "category": "social",
+      "text": {
+        "zh": "你如何看待竞争与合作的关系？",
+        "en": "How do you view the relationship between competition and cooperation?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "相信团队的力量，总比单打独斗强",
+            "en": "Prefer cooperation, believe in team power"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "竞争与合作都不可或缺，我喜欢在合作当中竞争",
+            "en": "Explore between competition and cooperation, look for the most suitable model"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "竞争更能激发我的潜能，我需要竞争来push自己",
+            "en": "Enjoy competition, see it as an opportunity to show ability"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "竞争的强度太大，我喜欢合作带来的踏实感",
+            "en": "View competition with a positive attitude, grow together in cooperation"
+          },
+          "target_era": "sweetener",
+          "weight": 1.5,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "我最欣赏团队之间的竞争，这才是合作的价值",
+            "en": "Be grateful for the growth brought by competition, cherish cooperative relationships"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "对我而言都能够接受，我更在意谁能给我带来好处",
+            "en": "Find balance between competition and cooperation, achieve win-win"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "social_pattern"
+        },
+        {
+          "text": {
+            "zh": "我需要一个人的空间，竞争与合作都离我远一点",
+            "en": "Clearly recognize the value of competition and cooperation, make rational choices"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "social_pattern"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "values",
+      "text": {
+        "zh": "你如何看待物质追求与精神满足的关系？",
+        "en": "How do you view the relationship between material pursuit and spiritual satisfaction?"
+      },
+      "type": "single",
+      "options": [
+        {
+          "text": {
+            "zh": "简单就是幸福，不在于物质与精神",
+            "en": "Value spiritual innocence more, believe that simplicity is happiness"
+          },
+          "target_era": "yours_truly",
+          "weight": 1.0,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "精神上满足后，我才有心思去考虑物质层面的满足",
+            "en": "Explore between material and spiritual, look for a balanced lifestyle"
+          },
+          "target_era": "my_everything",
+          "weight": 1.1,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "精神富足是多样的，物质追求于我而言单调且俗气",
+            "en": "Pursue material success, see it as proof of ability"
+          },
+          "target_era": "dangerous_woman",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "我渴望精神富足，这胜过其余任何事情",
+            "en": "View material with a positive attitude, but value spiritual fulfillment more"
+          },
+          "target_era": "sweetener",
+          "weight": 1.4,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "拥有足够的物质，才能支撑起我精神的富足",
+            "en": "Be grateful for the convenience brought by material, but cherish spiritual growth"
+          },
+          "target_era": "thank_u_next",
+          "weight": 1.3,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "物质与精神的概念太深奥了，我从不考虑这些东西",
+            "en": "Seek balance between material and spiritual, achieve comprehensive satisfaction"
+          },
+          "target_era": "positions",
+          "weight": 1.2,
+          "dimension": "value_system"
+        },
+        {
+          "text": {
+            "zh": "两者对我都没啥吸引力，不富足的我照样活得多姿多彩",
+            "en": "Clearly recognize the relationship between material and spiritual, pursue rational satisfaction"
+          },
+          "target_era": "eternal_sunshine",
+          "weight": 1.4,
+          "dimension": "value_system"
+        }
+      ]
+    }
+  ],
+  "eras": {
+    "yours_truly": {
+      "name": {
+        "zh": "「Yours Truly」初心守护者",
+        "en": "「Yours Truly」Innocence Guardian"
+      },
+      "badge": {
+        "zh": "纯真年代",
+        "en": "INNOCENCE ERA"
+      },
+      "desc": {
+        "zh": "你像2013年出道时的Ariana，保持着初恋般的纯真与深情。",
+        "en": "You are like Ariana in her 2013 debut, maintaining the innocence and deep affection of first love."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：复古浪漫的赤诚之心\n\n你就像《Yours Truly》时期的Ariana，带着90年代R&B的复古浪漫与50年代doo-wop的纯真质感。你的内心世界如同专辑封面那抹温柔粉色，充满了对爱情最纯粹的向往。\n\n## 情感模式\n- **初恋心态**：你相信真爱的存在，对待感情毫无保留，像《Tattooed Heart》中唱的\"I wanna say we're going steady like it's 1954\"，向往一生一世的忠贞\n- **怀旧倾向**：当关系出现问题时，你常想\"Let's just go back to the way it was\"，渴望回到最初的美好\n- **青涩脆弱**：像《Honeymoon Avenue》中\"I feel like my heart is stuck in bumper-to-bumper traffic\"，情感容易陷入停滞与无奈\n\n## 成长建议\n你的纯真是一份珍贵礼物，但也要学会在复杂现实中保护自己。Ariana从这张专辑走向成熟，你也需要适时建立情感边界，让纯真不变成易伤。\n\n## 专属歌单\n1. **《The Way》** - 唤醒你的初恋悸动\n2. **《Tattooed Heart》** - 感受复古浪漫的忠诚誓言\n3. **《Honeymoon Avenue》** - 理解情感中的停滞与渴望",
+        "en": "## Core Traits: Retro Romantic Sincerity\n\nYou are like Ariana in the 'Yours Truly' era, with the retro romance of 90s R&B and the innocent texture of 50s doo-wop. Your inner world is like the gentle pink on the album cover, filled with the purest longing for love.\n\n## Emotional Patterns\n- **First Love Mentality**: You believe in the existence of true love, treat feelings unreservedly, like singing in 'Tattooed Heart' \"I wanna say we're going steady like it's 1954\", yearning for lifelong loyalty\n- **Nostalgic Tendency**: When relationship problems arise, you often think \"Let's just go back to the way it was\", longing to return to the initial beauty\n- **Youthful Vulnerability**: Like in 'Honeymoon Avenue' \"I feel like my heart is stuck in bumper-to-bumper traffic\", emotions easily fall into stagnation and helplessness\n\n## Growth Suggestions\nYour innocence is a precious gift, but you also need to learn to protect yourself in complex reality. Ariana matured from this album, and you also need to establish emotional boundaries in a timely manner, so that innocence does not become vulnerable.\n\n## Exclusive Playlist\n1. **《The Way》** - Awaken your first love palpitations\n2. **《Tattooed Heart》** - Feel the retro romantic vow of loyalty\n3. **《Honeymoon Avenue》** - Understand the stagnation and longing in emotions"
+      },
+      "color": "#a0dcf6",
+      "songs": [
+        {
+          "title": "The Way",
+          "reason": {
+            "zh": "体现你初恋般的美好心境和对纯粹爱情的向往",
+            "en": "Reflects your first-love-like beautiful state of mind and longing for pure love"
+          }
+        },
+        {
+          "title": "Tattooed Heart",
+          "reason": {
+            "zh": "与你向往一生一世忠贞爱情的价值观共鸣",
+            "en": "Resonates with your values of yearning for lifelong loyal love"
+          }
+        },
+        {
+          "title": "Honeymoon Avenue",
+          "reason": {
+            "zh": "理解你在情感中的怀旧倾向和渴望回到最初的纯真",
+            "en": "Understands your nostalgic tendencies in emotions and desire to return to initial innocence"
+          }
+        }
+      ]
+    },
+    "my_everything": {
+      "name": {
+        "zh": "「My Everything」探索旅人",
+        "en": "「My Everything」Explorer"
+      },
+      "badge": {
+        "zh": "多元探索",
+        "en": "EXPLORATION ERA"
+      },
+      "desc": {
+        "zh": "你在探索自我的路上，尝试各种可能性，寻找真正的自己。",
+        "en": "You are on the path of exploring yourself, trying various possibilities, looking for the real you."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：多元探索的不确定性\n\n你正处于《My Everything》时期的探索阶段，像2014年的Ariana一样，尝试着各种音乐风格和自我表达方式。这个时期的你充满了可能性，但也伴随着迷茫和不确定性。\n\n## 探索模式\n- **风格实验**：你在情感、社交、价值观等多个层面都在尝试不同的可能性，寻找最适合自己的方式\n- **迷茫伴随**：像《One Last Time》中唱的，你知道有些事情要结束，却仍不舍放手，害怕距离和改变\n- **寻求认同**：你在探索中渴望被理解和接纳，希望找到属于自己的位置\n\n## 成长建议\n探索是成长的必经之路。Ariana通过这张专辑找到了自己的方向，你也可以在尝试中发现真正的自己。不要害怕迷茫，这是探索的一部分。\n\n## 专属歌单\n1. **《Problem》** - 感受探索中的矛盾与冲突\n2. **《Break Free》** - 寻找挣脱束缚的勇气\n3. **《One Last Time》** - 理解不舍与放手的复杂情感",
+        "en": "## Core Traits: Diversified Exploration Uncertainty\n\nYou are in the exploration stage of the 'My Everything' era, like Ariana in 2014, trying various music styles and self-expression methods. This period of you is full of possibilities, but also accompanied by confusion and uncertainty.\n\n## Exploration Mode\n- **Style Experimentation**: You are trying different possibilities in emotional, social, and value aspects, looking for the most suitable way for yourself\n- **Accompanied Confusion**: Like singing in 'One Last Time', you know some things are ending, but you are still reluctant to let go, afraid of distance and change\n- **Seeking Recognition**: In exploration, you long to be understood and accepted, hoping to find your own place\n\n## Growth Suggestions\nExploration is a necessary path for growth. Ariana found her direction through this album, and you can also discover your true self in trying. Don't be afraid of confusion, it's part of exploration.\n\n## Exclusive Playlist\n1. **《Problem》** - Feel the contradictions and conflicts in exploration\n2. **《Break Free》** - Find the courage to break free from constraints\n3. **《One Last Time》** - Understand the complex emotions of reluctance and letting go"
+      },
+      "color": "#7a7878",
+      "songs": [
+        {
+          "title": "Problem",
+          "reason": {
+            "zh": "反映你在探索中面临的矛盾与选择困难",
+            "en": "Reflects the contradictions and choice difficulties you face in exploration"
+          }
+        },
+        {
+          "title": "Break Free",
+          "reason": {
+            "zh": "给予你挣脱束缚、勇敢尝试的力量",
+            "en": "Gives you the strength to break free from constraints and try bravely"
+          }
+        },
+        {
+          "title": "One Last Time",
+          "reason": {
+            "zh": "理解你在变化中的不舍与挣扎",
+            "en": "Understands your reluctance and struggle in change"
+          }
+        }
+      ]
+    },
+    "dangerous_woman": {
+      "name": {
+        "zh": "「Dangerous Woman」危险女郎",
+        "en": "「Dangerous Woman」Confident Queen"
+      },
+      "badge": {
+        "zh": "自信觉醒",
+        "en": "CONFIDENCE ERA"
+      },
+      "desc": {
+        "zh": "你如《Dangerous Woman》时期的Ariana，自信、独立、掌控自我。",
+        "en": "You are like Ariana in the 'Dangerous Woman' era, confident, independent, and in control of yourself."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：女性意识的自信觉醒\n\n你像2016年的Ariana，经历了从甜美到性感的蜕变，完成了女性意识的觉醒。你不再是被定义的客体，而是自我主宰的主体。\n\n## 自信特质\n- **自我主宰**：你像《Dangerous Woman》中唱的\"Don't need permission, made my decision\"，坚持自己的选择和边界\n- **勇敢冒险**：即使在关系中感到危险，你也愿意像《Into You》那样勇敢尝试，不畏惧挑战\n- **掌控力强**：你在社交和情感关系中都有较强的掌控力，知道自己要什么\n\n## 成长建议\n你的自信是宝贵的力量。Ariana在这个时期确立了成熟风格，你也可以利用这份自信追求更明确的人生目标。注意不要让掌控变成控制，给他人也留出空间。\n\n## 专属歌单\n1. **《Dangerous Woman》** - 感受女性力量的自信觉醒\n2. **《Into You》** - 体验勇敢冒险的情感态度\n3. **《Side to Side》** - 理解性感自主的身体表达",
+        "en": "## Core Traits: Feminine Consciousness Confidence Awakening\n\nYou are like Ariana in 2016, having experienced the transformation from sweet to sexy, completing the awakening of feminine consciousness. You are no longer a defined object, but a self-determined subject.\n\n## Confident Traits\n- **Self-Determination**: You are like singing in 'Dangerous Woman' \"Don't need permission, made my decision\", insisting on your own choices and boundaries\n- **Brave Adventure**: Even if you feel dangerous in relationships, you are willing to try bravely like in 'Into You', not afraid of challenges\n- **Strong Control**: You have strong control in social and emotional relationships, knowing what you want\n\n## Growth Suggestions\nYour confidence is a precious strength. Ariana established a mature style in this period, and you can also use this confidence to pursue clearer life goals. Be careful not to let control become domination, leaving space for others.\n\n## Exclusive Playlist\n1. **《Dangerous Woman》** - Feel the confident awakening of feminine power\n2. **《Into You》** - Experience the emotional attitude of brave adventure\n3. **《Side to Side》** - Understand the physical expression of sexual autonomy"
+      },
+      "color": "#000000",
+      "songs": [
+        {
+          "title": "Dangerous Woman",
+          "reason": {
+            "zh": "体现你自信、独立、不被定义的女性力量",
+            "en": "Reflects your confident, independent, undefined feminine power"
+          }
+        },
+        {
+          "title": "Into You",
+          "reason": {
+            "zh": "展现你勇敢冒险、不畏惧挑战的情感态度",
+            "en": "Shows your brave, adventurous emotional attitude that is not afraid of challenges"
+          }
+        },
+        {
+          "title": "Side to Side",
+          "reason": {
+            "zh": "理解你性感自主的身体表达和情感释放",
+            "en": "Understands your sexually autonomous physical expression and emotional release"
+          }
+        }
+      ]
+    },
+    "sweetener": {
+      "name": {
+        "zh": "「Sweetener」疗愈甜心",
+        "en": "「Sweetener」Healing Sweetheart"
+      },
+      "badge": {
+        "zh": "创伤疗愈",
+        "en": "HEALING ERA"
+      },
+      "desc": {
+        "zh": "你像《Sweetener》时期的Ariana，用爱和希望化解生活的苦涩。",
+        "en": "You are like Ariana in the 'Sweetener' era, using love and hope to dissolve the bitterness of life."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：创伤后的温柔重生\n\n你正处在《Sweetener》的疗愈期，像2018年的Ariana一样，经历了曼彻斯特恐袭等创伤后，用音乐和积极心态进行自我疗愈。\n\n## 疗愈特质\n- **积极转化**：你像专辑名《Sweetener》一样，擅长把苦涩变成甜蜜，在伤痛中找到希望\n- **呼吸哲学**：你理解《breathin'》中\"Just keep breathin' and breathin' and breathin'\"的哲学，在压力面前坚持呼吸，知道一切都会过去\n- **神性自爱**：你认同《God Is A Woman》中的观点，相信女性拥有神性力量，能够创造和治愈\n\n## 成长建议\n你的疗愈能力是宝贵的礼物。Ariana在这个时期获得了格莱美奖，你也可以利用这份积极心态帮助他人。注意疗愈不是逃避，而是直面痛苦后的转化。\n\n## 专属歌单\n1. **《Sweetener》** - 学习把苦涩变成甜蜜的疗愈魔法\n2. **《breathin'》** - 掌握在压力中坚持呼吸的生存哲学\n3. **《God Is A Woman》** - 感受女性神性力量的自我认同",
+        "en": "## Core Traits: Gentle Rebirth After Trauma\n\nYou are in the healing period of 'Sweetener', like Ariana in 2018, having experienced traumas such as the Manchester terrorist attack, using music and a positive attitude for self-healing.\n\n## Healing Traits\n- **Positive Transformation**: Like the album name 'Sweetener', you are good at turning bitterness into sweetness, finding hope in pain\n- **Breathing Philosophy**: You understand the philosophy of \"Just keep breathin' and breathin' and breathin'\" in 'breathin'', insisting on breathing in the face of pressure, knowing everything will pass\n- **Divine Self-Love**: You agree with the view in 'God Is A Woman', believing that women have divine power to create and heal\n\n## Growth Suggestions\nYour healing ability is a precious gift. Ariana won a Grammy in this period, and you can also use this positive attitude to help others. Note that healing is not escape, but transformation after facing pain.\n\n## Exclusive Playlist\n1. **《Sweetener》** - Learn the healing magic of turning bitterness into sweetness\n2. **《breathin'》** - Master the survival philosophy of insisting on breathing under pressure\n3. **《God Is A Woman》** - Feel the self-identity of female divine power"
+      },
+      "color": "#e8b786",
+      "songs": [
+        {
+          "title": "Sweetener",
+          "reason": {
+            "zh": "学习用积极态度化解生活苦涩的疗愈魔法",
+            "en": "Learn the healing magic of using a positive attitude to dissolve the bitterness of life"
+          }
+        },
+        {
+          "title": "breathin'",
+          "reason": {
+            "zh": "掌握在焦虑压力中坚持呼吸的生存哲学",
+            "en": "Master the survival philosophy of insisting on breathing in anxiety and stress"
+          }
+        },
+        {
+          "title": "God Is A Woman",
+          "reason": {
+            "zh": "感受女性神性力量的自我认同与创造能力",
+            "en": "Feel the self-identity and creative ability of female divine power"
+          }
+        }
+      ]
+    },
+    "thank_u_next": {
+      "name": {
+        "zh": "「thank u, next」善感歌者",
+        "en": "「thank u, next」Growth Poet"
+      },
+      "badge": {
+        "zh": "感恩成长",
+        "en": "GRATITUDE ERA"
+      },
+      "desc": {
+        "zh": "你如《thank u, next》时期的Ariana，感恩每段经历，在成长中学会自爱。",
+        "en": "You are like Ariana in the 'thank u, next' era, grateful for every experience, learning self-love in growth."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：感恩伤痛后的自爱觉醒\n\n你正经历《thank u, next》的成长阶段，像2019年的Ariana一样，在经历分手、挚友离世等伤痛后，完成了从依赖到自爱的蜕变。\n\n## 成长特质\n- **感恩哲学**：你认同\"One taught me love, one taught me patience, and one taught me pain\"的感恩哲学，把每段经历都当作成长的养分\n- **自爱觉醒**：你理解在学会爱别人之前，必须先学会爱自己，像《thank u, next》中唱的\"Plus, I met someone else\"，不急于进入新关系\n- **真诚面对**：你像《ghostin'》中那样，即使痛苦也真诚面对自己的情感，不伪装坚强\n\n## 成长建议\n你的感恩心态是成熟的标志。Ariana在这个时期创作了现象级歌曲，你也可以把成长感悟转化为创造力。注意感恩不是美化伤害，而是承认伤害后的超越。\n\n## 专属歌单\n1. **《thank u, next》** - 学习感恩前任、专注自爱的成长哲学\n2. **《ghostin'》** - 理解真诚面对痛苦、不伪装坚强的情感智慧\n3. **《fake smile》** - 掌握拒绝伪装、做真实自己的勇气",
+        "en": "## Core Traits: Self-Love Awakening After Grateful Pain\n\nYou are experiencing the growth stage of 'thank u, next', like Ariana in 2019, after experiencing pains such as breakups and the death of close friends, completing the transformation from dependence to self-love.\n\n## Growth Traits\n- **Gratitude Philosophy**: You agree with the gratitude philosophy of \"One taught me love, one taught me patience, and one taught me pain\", treating every experience as nutrients for growth\n- **Self-Love Awakening**: You understand that before learning to love others, you must first learn to love yourself, like singing in 'thank u, next' \"Plus, I met someone else\", not rushing into new relationships\n- **Sincere Facing**: Like in 'ghostin'', you sincerely face your emotions even in pain, not pretending to be strong\n\n## Growth Suggestions\nYour gratitude mindset is a sign of maturity. Ariana created phenomenal songs in this period, and you can also transform growth insights into creativity. Note that gratitude is not beautifying harm, but transcending after acknowledging harm.\n\n## Exclusive Playlist\n1. **《thank u, next》** - Learn the growth philosophy of being grateful to exes and focusing on self-love\n2. **《ghostin'》** - Understand the emotional wisdom of sincerely facing pain and not pretending to be strong\n3. **《fake smile》** - Master the courage to refuse disguise and be your true self"
+      },
+      "color": "#bd7d98",
+      "songs": [
+        {
+          "title": "thank u, next",
+          "reason": {
+            "zh": "学习感恩经历、专注自爱的成长哲学",
+            "en": "Learn the growth philosophy of being grateful for experiences and focusing on self-love"
+          }
+        },
+        {
+          "title": "ghostin'",
+          "reason": {
+            "zh": "理解真诚面对痛苦、不伪装坚强的情感智慧",
+            "en": "Understand the emotional wisdom of sincerely facing pain and not pretending to be strong"
+          }
+        },
+        {
+          "title": "fake smile",
+          "reason": {
+            "zh": "掌握拒绝伪装、做真实自己的勇气",
+            "en": "Master the courage to refuse disguise and be your true self"
+          }
+        }
+      ]
+    },
+    "positions": {
+      "name": {
+        "zh": "「Positions」亲密平衡者",
+        "en": "「Positions」Intimate Balancer"
+      },
+      "badge": {
+        "zh": "关系探索",
+        "en": "RELATIONSHIP ERA"
+      },
+      "desc": {
+        "zh": "你像《Positions》时期的Ariana，在亲密关系中寻找平衡，学习自爱。",
+        "en": "You are like Ariana in the 'Positions' era, seeking balance in intimate relationships, learning self-love."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：亲密关系中的自我平衡\n\n你正处于《Positions》的关系探索期，像2020年的Ariana一样，在亲密关系中学习如何保持自我，寻找情感与理性的平衡。\n\n## 关系特质\n- **自我觉察**：你理解《POV》中唱的\"I wanna love you, but I can't, 'til I learn how to love myself\"，知道在爱别人前必须先学会爱自己\n- **关系平衡**：你在亲密关系中寻求平等与平衡，像专辑名《Positions》暗示的，愿意在不同角色和位置间灵活转换\n- **情感成熟**：你不再像年轻时那样为爱不顾一切，而是更理性地评估关系，寻求情感安全\n\n## 成长建议\n你在关系中的自我觉察是成熟的体现。Ariana在这个时期展现了更细腻的情感表达，你也可以在亲密关系中发展更深度的情感连接。注意平衡不是妥协，而是相互尊重中的自我完整。\n\n## 专属歌单\n1. **《POV》** - 学习在爱别人前先学会爱自己的关系智慧\n2. **《Positions》** - 理解在关系中灵活转换角色的平衡艺术\n3. **《safety net》** - 掌握建立情感安全网的理性态度",
+        "en": "## Core Traits: Self-Balance in Intimate Relationships\n\nYou are in the relationship exploration period of 'Positions', like Ariana in 2020, learning how to maintain yourself in intimate relationships, seeking the balance between emotion and reason.\n\n## Relationship Traits\n- **Self-Awareness**: You understand singing in 'POV' \"I wanna love you, but I can't, 'til I learn how to love myself\", knowing that you must first learn to love yourself before loving others\n- **Relationship Balance**: You seek equality and balance in intimate relationships, like the album name 'Positions' implies, willing to flexibly switch between different roles and positions\n- **Emotional Maturity**: You no longer love recklessly like when you were young, but more rationally evaluate relationships, seeking emotional security\n\n## Growth Suggestions\nYour self-awareness in relationships is a reflection of maturity. Ariana showed more delicate emotional expression in this period, and you can also develop deeper emotional connections in intimate relationships. Note that balance is not compromise, but self-integrity in mutual respect.\n\n## Exclusive Playlist\n1. **《POV》** - Learn the relationship wisdom of learning to love yourself before loving others\n2. **《Positions》** - Understand the balancing art of flexibly switching roles in relationships\n3. **《safety net》** - Master the rational attitude of establishing an emotional safety net"
+      },
+      "color": "#7db2a0",
+      "songs": [
+        {
+          "title": "POV",
+          "reason": {
+            "zh": "学习在爱别人前先学会爱自己的关系智慧",
+            "en": "Learn the relationship wisdom of learning to love yourself before loving others"
+          }
+        },
+        {
+          "title": "Positions",
+          "reason": {
+            "zh": "理解在亲密关系中灵活转换角色的平衡艺术",
+            "en": "Understand the balancing art of flexibly switching roles in intimate relationships"
+          }
+        },
+        {
+          "title": "safety net",
+          "reason": {
+            "zh": "掌握建立情感安全网的理性态度",
+            "en": "Master the rational attitude of establishing an emotional safety net"
+          }
+        }
+      ]
+    },
+    "eternal_sunshine": {
+      "name": {
+        "zh": "「eternal sunshine」清醒告别者",
+        "en": "「eternal sunshine」Clear Farewell"
+      },
+      "badge": {
+        "zh": "清醒自愈",
+        "en": "CLARITY ERA"
+      },
+      "desc": {
+        "zh": "你如《eternal sunshine》时期的Ariana，清醒告别过去，坚守个人边界。",
+        "en": "You are like Ariana in the 'eternal sunshine' era, clearly saying goodbye to the past, sticking to personal boundaries."
+      },
+      "interpretation": {
+        "zh": "## 核心特质：记忆与告别的情感解构\n\n你正处于《eternal sunshine》的清醒自愈期，像2024年的Ariana一样，经历了土星回归的成熟蜕变，学会了与过去和解，不再沉溺于伤痛。\n\n## 清醒特质\n- **边界守护**：你像《yes, and?》中唱的，拒绝被他人定义，坚守个人边界，不再为取悦他人而妥协\n- **清醒告别**：你理解《eternal sunshine》中关于记忆与遗忘的哲学，能够清醒地告别不再适合的关系\n- **情感独立**：你不再依赖他人来定义自我价值，像\"I showed you all my demons, all my lies, yet you played me like Atari\"中表达的，即使展现脆弱也不再被他人玩弄\n\n## 成长建议\n你的清醒是情感成熟的最高阶段。Ariana在这个时期展现了前所未有的音乐深度，你也可以把这种清醒转化为创造力和内在力量。注意清醒不是冷漠，而是看清真相后的选择自由。\n\n## 专属歌单\n1. **《yes, and?》** - 学习拒绝被定义、坚守个人边界的自我宣言\n2. **《eternal sunshine》** - 理解记忆、遗忘与告别的复杂哲学\n3. **《we can't be friends》** - 掌握清醒告别不适合关系的勇气与智慧",
+        "en": "## Core Traits: Emotional Deconstruction of Memory and Farewell\n\nYou are in the clear self-healing period of 'eternal sunshine', like Ariana in 2024, having experienced the mature transformation of Saturn return, learned to reconcile with the past, and no longer indulge in pain.\n\n## Clear Traits\n- **Boundary Guarding**: Like singing in 'yes, and?', you refuse to be defined by others, stick to personal boundaries, and no longer compromise to please others\n- **Clear Farewell**: You understand the philosophy of memory and forgetting in 'eternal sunshine', able to clearly say goodbye to relationships that are no longer suitable\n- **Emotional Independence**: You no longer depend on others to define self-worth, as expressed in \"I showed you all my demons, all my lies, yet you played me like Atari\", even showing vulnerability is no longer played by others\n\n## Growth Suggestions\nYour clarity is the highest stage of emotional maturity. Ariana showed unprecedented musical depth in this period, and you can also transform this clarity into creativity and inner strength. Note that clarity is not indifference, but freedom of choice after seeing the truth.\n\n## Exclusive Playlist\n1. **《yes, and?》** - Learn the self-declaration of refusing to be defined and sticking to personal boundaries\n2. **《eternal sunshine》** - Understand the complex philosophy of memory, forgetting and farewell\n3. **《we can't be friends》** - Master the courage and wisdom to clearly say goodbye to unsuitable relationships"
+      },
+      "color": "#993136",
+      "songs": [
+        {
+          "title": "yes, and?",
+          "reason": {
+            "zh": "学习拒绝被定义、坚守个人边界的自我宣言",
+            "en": "Learn the self-declaration of refusing to be defined and sticking to personal boundaries"
+          }
+        },
+        {
+          "title": "eternal sunshine",
+          "reason": {
+            "zh": "理解记忆、遗忘与告别的复杂哲学",
+            "en": "Understand the complex philosophy of memory, forgetting and farewell"
+          }
+        },
+        {
+          "title": "we can't be friends",
+          "reason": {
+            "zh": "掌握清醒告别不适合关系的勇气与智慧",
+            "en": "Master the courage and wisdom to clearly say goodbye to unsuitable relationships"
+          }
+        }
+      ]
+    }
+  }
+}
