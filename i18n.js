@@ -9,7 +9,7 @@ const i18n = {
             "welcome_desc": "通过22道精心设计的题目，探索你内心深处的Ariana Grande人格特质。发现你的专属era，获得个性歌单推荐！",
             "disclaimer": "本网站由粉丝制作，非官方，请勿用作其他用途",
             "start_test": "开始测试",
-            "test_duration": "测试时长约4-6分钟",
+            "test_duration": "测试时长约7-10分钟，若有问题请联系 新浪微博@Lexie·Ariana 或 小红书@LexieAriana",
             
             "quiz_title": "AriTI 测试",
             "quiz_version": "经典版 · 22题",
@@ -38,7 +38,7 @@ const i18n = {
             "welcome_desc": "Discover your inner Ariana Grande personality through 22 carefully designed questions. Find your era and get personalized playlist recommendations!",
             "disclaimer": "This website is fan-made, unofficial, please do not use for other purposes.",
             "start_test": "Start Test",
-            "test_duration": "Test duration: 4-6 minutes",
+            "test_duration": "Test duration: 7-10 minutes. Contect me: Weibo@Lexie·Ariana, Rednote@LexieAriana",
             
             "quiz_title": "AriTI Test",
             "quiz_version": "Classic Edition · 22 Questions",
